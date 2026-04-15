@@ -1,0 +1,34 @@
+# large dataset archives (not versioned)
+track1_download_link_*.zip
+*.zip
+
+# extracted training imagery
+region_train_*/
+region_test/
+
+# feature cache produced by src/train.py
+features_cache.pkl
+*.parquet
+
+# inference output
+test_output/
+/output/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# training labels (can be re-fetched from zip 5, keep repo lean)
+points_train_label.csv
