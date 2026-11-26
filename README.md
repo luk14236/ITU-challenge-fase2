@@ -1,6 +1,6 @@
 # ITU Challenge – Phase 2
 
-Crop type and phenology stage classification from Sentinel-2 imagery for the ITU AI/ML in 5G Challenge (Track 1).
+Crop type and phenology stage classification from Sentinel-2 imagery for the ITU AI and Space Computing Challenge 2026 (Food Production track).
 
 Given a set of `(longitude, latitude, date)` points and the Sentinel-2 L2A tiles that cover them, the system predicts:
 
